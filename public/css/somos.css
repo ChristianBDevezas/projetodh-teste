@@ -283,6 +283,7 @@
 
 .emphasis__content__card:last-child .emphasis__bio {
     background: url(../img/somos/bg2-emphasis.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .emphasis__bio__btn {
