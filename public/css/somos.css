@@ -379,9 +379,14 @@
     margin-left: 1rem;
     cursor: pointer;
     color: var(--cor-branca);
+    transform: scale(0);
     transform-origin: left;
     transition: all 1s;
 }
+.change-manager .emphasis__contact .like-icon {
+    transform: scale(1);
+}
+
 .emphasis__contact .like-icon.blue-color {
     color: var(--cor-vinho-verde);
     animation: move-thumb .5s;
