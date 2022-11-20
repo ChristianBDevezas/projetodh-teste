@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +21,6 @@
     <link rel="stylesheet" href="public/css/login.css">
     <link rel="stylesheet" href="public/css/main.css">
 </head>
-
 <body>
     <!--HEADER-->
     <header class="header">
@@ -53,8 +51,13 @@
 
         <!--Login/Compras-->
         <div class="icons">
-            <i class="fa-solid fa-user" id="user-icon" title="cadastrar"></i>
-            <i class="fa-solid fa-cart-shopping" id="cart-icon" title="carrinho"></i>
+            <a href="login.html">
+                <i class="fa-solid fa-user" id="user-icon" title="Login"></i>
+            </a>
+
+            <a href="carrinho.html">
+                <i class="fa-solid fa-cart-shopping" id="cart-icon" title="Carrinho"></i>
+            </a>
         </div>
 
         <!--Procura-->
@@ -73,11 +76,10 @@
     <!--MAIN-->
     <main>
         <!--inicio do formulário-->
-
         <form action="" method="post">
             <div class="container">
                 <div class="audio">
-                    <audio src="public/midia/Where Am I - Text Me Records.mp3" controls autoplay></audio>
+                    <audio src="public/midia/Where Am I - Text Me Records.mp3" controls></audio>
                 </div>
 
                 <div>
@@ -102,10 +104,9 @@
                 <br>
                 <br>
             </div>
+            
             <hr>
             <input id="linha"></input>
-
-
         </form>
         <br>
 
@@ -114,7 +115,6 @@
                 <h2 class="title">Comece agora a viver o melhor do mundo dos vinhos!</h2>
                 <h3 subclass="titulo">Aqui você encontra os melhores vinhos!</h3><br>
                 <p>Faça seu cadastro.</p>
-
 
                 <section class="form-body">
                     <div>
@@ -157,12 +157,8 @@
                     <div>
                         <img class="imagem" src="public/img/login/garrafa.png" alt="garrafas de vinho">
                     </div>
-
-
                 </section>
-
             </form>
-
         </section>
         <!--fim do formulário-->
     </main>
@@ -225,5 +221,4 @@
     <script src="public/js/main.js"></script>
     <!--end JavaScript-->
 </body>
-
 </html>
